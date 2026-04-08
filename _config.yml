@@ -95,7 +95,7 @@ content:
           <mark>MLflow Nested Run</mark>을 활용해 실험 과정을 구조화하고, feature selection부터 hyperparameter tuning까지의 의사결정을 자동화했습니다.
 
       - layout: top-middle
-      
+
         title: AI 기반 뉴스 숏폼 자동 생성 파이프라인
         link: https://github.com/jskimofs/shortform_auto_generator
         # link_text: Project Website
@@ -132,56 +132,42 @@ content:
 
       ### Programming
 
-      - Python  
-        → 데이터 처리 및 AI 파이프라인 설계, 클래스 기반 모듈화 경험
+      - Python : 데이터 처리 및 AI 파이프라인 설계, 클래스 기반 모듈화 경험
 
 
       ### Data Analysis
-      ![Pandas](/jskimofs.github.io/images/Pandas.png "Pandas")
-      ![Scikit-learn](/jskimofs.github.io/images/scikit-learn.png "Scikit-learn")
-      - pandas  
-        → 데이터 정제, 집계, feature engineering 수행 가능
-      - scikit-learn  
-        → 모델링, 검증, 하이퍼파라미터 튜닝까지 end-to-end 수행 가능
+
+      - pandas : 데이터 정제, 집계, feature engineering 수행 가능
+      - scikit-learn : 모델링, 검증, 하이퍼파라미터 튜닝까지 end-to-end 수행 가능
 
 
       ### Database
-      ![MySQL](/jskimofs.github.io/images/MySQL.png "MySQL")
-      - MySQL  
-        → 관계형 데이터 구조 기반 데이터 통합 및 분석용 dataset 생성
+
+      - MySQL : 관계형 데이터 구조 기반 데이터 통합 및 분석용 dataset 생성
 
 
       ### AI / NLP
 
-      - OpenAI GPT API  
-        → 텍스트 교정, 요약, 분류 파이프라인 구성
-      - Whisper  
-        → STT 및 timestamp 기반 후처리
-      - BERTScore  
-        → semantic similarity 기반 문장 선택
+      - OpenAI GPT API : 텍스트 교정, 요약, 분류 파이프라인 구성
+      - Whisper : STT 및 timestamp 기반 후처리
+      - BERTScore : semantic similarity 기반 문장 선택
 
 
       ### System / Pipeline
       
-      - Pipeline Architecture  
-        → end-to-end AI 서비스 설계 및 구현 경험
-      - FFmpeg  
-        → 영상 처리 자동화 (클립 생성, 병합, 효과 적용)
+      - Pipeline Architecture : end-to-end AI 서비스 설계 및 구현 경험
+      - FFmpeg : 영상 처리 자동화 (클립 생성, 병합, 효과 적용)
 
 
       ### Deep Learning (Familiar)
-      ![TensorFlow](/jskimofs.github.io/images/TensorFlow.png "TensorFlow")
-      - TensorFlow, PyTorch  
-        → 기본적인 신경망 구조 이해 및 학습 실습 경험
+
+      - TensorFlow, PyTorch : 기본적인 신경망 구조 이해 및 학습 실습 경험
 
 
       ### Backend / Deployment (Familiar)
-      ![AWS](/jskimofs.github.io/images/AWS.png "AWS")
-      ![Django](/jskimofs.github.io/images/Django.png "Django")
-      - AWS (EC2, S3, RDS, Kinesis, Lambda, API Gateway)  
-        → 데이터 파이프라인 구성 및 웹 서비스 배포 실습 경험
-      - Django  
-        → AWS EC2 환경에서 WAS 배포 실습 경험
+
+      - AWS (EC2, S3, RDS, Kinesis, Lambda, API Gateway) : 데이터 파이프라인 구성 및 웹 서비스 배포 실습 경험
+      - Django : AWS EC2 환경에서 WAS 배포 실습 경험
     
 
 
