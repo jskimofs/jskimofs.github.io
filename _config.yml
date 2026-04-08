@@ -106,7 +106,7 @@ content:
   - title: Tech Stack
     layout: text
     content: | # this will include new lines to allow paragraphs
-      테크 스택 설명하기
+    
 
       - Python : 데이터 처리 및 AI 파이프라인 설계, 클래스 기반 모듈화 경험
 
