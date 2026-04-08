@@ -55,24 +55,26 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Projects # Title for the section 
     layout: list # Type of content section (list/text)
-    # content:
-      # - layout: top-middle
-      #   title: 실험 자동화를 적용한 ML 기반 인터넷 유형 예측 시스템 리팩토링
-      #   link: https://github.com/jskimofs/streamlit_internet_recommender
-      #   # link_text: Project Website
-      #   # additional_links: # 이게 지금 
-      #   #   - title:  sproogen/modern-resume-theme
-      #   #     icon: fab fa-github
-      #   #     url: github.com/sproogen/modern-resume-theme
-      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #     #   icon: fab fa-github
-      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-      #   # quote: > # 이건 생략 가능할 것 같은데
-      #   #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong. 
-      #   description: | # this will include new lines to allow paragraphs
-      #     고객의 서비스 이용 데이터를 기반으로 인터넷 유형을 예측하는 <mark>머신러닝</mark> 프로젝트입니다.
-      #     <mark>MLflow Nested Run</mark>을 활용해 실험 과정을 구조화하고, feature selection부터 hyperparameter tuning까지의 의사결정을 자동화했습니다.
-          
+  
+# content:
+#   - title: Projects
+#     layout: list
+
+#     content:
+#       - layout: top-middle
+#         title: 프로젝트1
+#         link: https://프로젝트1_링크
+#         description: |
+#           프로젝트1 설명
+
+#       - layout: top-middle
+#         title: 프로젝트2
+#         link: https://프로젝트2_링크
+#         description: |
+#           프로젝트2 설명
+
+
+
     content:
       - layout: top-middle
 
@@ -92,7 +94,8 @@ content:
           고객의 서비스 이용 데이터를 기반으로 인터넷 유형을 예측하는 <mark>머신러닝</mark> 프로젝트입니다.
           <mark>MLflow Nested Run</mark>을 활용해 실험 과정을 구조화하고, feature selection부터 hyperparameter tuning까지의 의사결정을 자동화했습니다.
 
-
+      - layout: top-middle
+      
         title: AI 기반 뉴스 숏폼 자동 생성 파이프라인
         link: https://github.com/jskimofs/shortform_auto_generator
         # link_text: Project Website
@@ -189,18 +192,24 @@ content:
       연세대학교
 
       학과 : 문헌정보학과
+
       재학기간 : 2016 - 2022
+
       학습 내용 : 
+
        - 문헌정보통계 : 회귀분석과 분산분석을 학습하며, 공공데이터를 활용해 가설을 설정하고 통계적 검정을 통해 이를 검증하는 프로젝트를 수행
        - 응용머신러닝 : 데이터 전처리부터 모델 학습, 성능 평가에 이르는 머신러닝 분석의 전체 흐름을 학습. GridSearchCV를 활용해 정해진 탐색 공간 내에서 하이퍼파라미터 조합을 비교하며 모델 성능을 체계적으로 검증하는 방법을 익힘
        - 텍스트정보론 : 텍스트 데이터의 특성을 이해하기 위한 자연어 전처리 개념을 학습하고, 정규표현식과 벡터화 과정을 거쳐 Gensim, SpaCy 등의 라이브러리를 활용한 분석을 수행함. 또한 PyTorch 기반 모델링과 순환신경망 및 LSTM 구조를 접하며 자연어 데이터를 다루는 모델링 접근을 확장
        - 정보기술론 과목 : 데이터 분석과 머신러닝에 필수적인 기술 언어로서의 파이썬을 기초 단계부터 학습함. 튜플과 클래스, 캡슐화 개념을 중심으로 객체와 데이터 구조에 대한 이해를 쌓음
        - 프로그래밍기초 : 파이썬에 기반해 함수 정의와 모듈 호출을 통해 코드를 재사용 가능한 단위로 구성하는 방법을 익힘. 이 과정에서 배운 내용을 바탕으로 보유 주식의 매수 내역을 입력값으로 받아 평균 단가를 계산하는 간단한 함수를 직접 구현하며, 파이썬 문법을 실제 문제 해결에 적용하는 경험을 쌓음
 
+
       K-MOOC
 
       기간 : 2024.04 - 2024.06
+
       학습 내용 : 
+
        - AI 프로그래밍 : 딥러닝의 핵심 개념과 PyTorch 기반 회귀 모델 및 CNN 모델링 과정을 학습
        - 데이터로 배우는 통계학 : 중앙값, 신뢰구간, 가설검정을 활용한 통계적 추론을 수행하고, 변수 간 관계 분석, 집단 간 차이 검정, 확률 기반 분류 문제 에 따라 회귀분석, 분산분석, 베이즈 추론 기법을 적용하는 방법을 학습
        - 인공지능과 에너지 : 시계열 데이터의 특성과 전처리 흐름을 이해하고, pandas 기반 데이터 가공과 함께 서포트 벡터 머신과 회귀 기반 모델을 활용한 예측 모델링 학습
@@ -209,7 +218,9 @@ content:
       Dacon
 
       기간 : 2024.07
+
       학습 내용 : 
+
        - 머신러닝 심화 트랙 : PCA, RFECV를 활용한 피처 선택 및 차원 축소, Optuna를 이용한 하이퍼파라미터 탐색, 보팅과 스태킹 기반 앙상블 분류를 통한 머신러닝 모델 성능 개선 기법 학습
 
 
@@ -217,7 +228,9 @@ content:
       LG U+ WhyNotSWCamp 3기
 
       기간 : 2024.11 - 2025.05
+
       학습 내용 :
+
       - 파이썬의 자료형과 자료구조를 포함한 기초적인 개념부터, Pandas와 Scikit-learn을 활용한 데이터 분석 기술, MySQL 기반 데이터 추출 방법, 기본적인 통계 개념과 SciPy 및 Statsmodels를 활용한 통계적 검정 기법 학습
       - Django를 활용해 웹 프레임워크를 구성하고, Docker 이미지를 이용한 배포 과정을 실습했으며, Kubernetes의 기본 개념을 익힘
       - AWS의 EC2 인스턴스에 Docker 이미지를 올려 실행하고, Django 기반 웹페이지에서 발생한 로그 데이터를 Kinesis - Lambda - Firehose 파이프라인을 통해 S3에 저장하는 전 과정을 직접 구현하며 클라우드 기반 데이터 흐름을 체험
