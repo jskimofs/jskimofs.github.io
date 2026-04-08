@@ -53,28 +53,46 @@ about_content: | # this will include new lines to allow paragraphs
   또한 MLflow를 활용해 실험 과정을 구조화하고, 파이프라인 기반 학습과 모델 직렬화를 통해 모델을 서비스 환경에 적용 가능한 형태로 개선했습니다.
 
 content:
-  - title: Projects # Title for the section # 이걸 두 개 만들어야겠네, 하나는 스트림릿 리팩토링, 하나는 숏폼 생성 리팩토링으로
+  - title: Projects # Title for the section 
     layout: list # Type of content section (list/text)
+    # content:
+      # - layout: top-middle
+      #   title: 실험 자동화를 적용한 ML 기반 인터넷 유형 예측 시스템 리팩토링
+      #   link: https://github.com/jskimofs/streamlit_internet_recommender
+      #   # link_text: Project Website
+      #   # additional_links: # 이게 지금 
+      #   #   - title:  sproogen/modern-resume-theme
+      #   #     icon: fab fa-github
+      #   #     url: github.com/sproogen/modern-resume-theme
+      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #     #   icon: fab fa-github
+      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      #   # quote: > # 이건 생략 가능할 것 같은데
+      #   #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong. 
+      #   description: | # this will include new lines to allow paragraphs
+      #     고객의 서비스 이용 데이터를 기반으로 인터넷 유형을 예측하는 <mark>머신러닝</mark> 프로젝트입니다.
+      #     <mark>MLflow Nested Run</mark>을 활용해 실험 과정을 구조화하고, feature selection부터 hyperparameter tuning까지의 의사결정을 자동화했습니다.
+          
     content:
       - layout: top-middle
+
         title: 실험 자동화를 적용한 ML 기반 인터넷 유형 예측 시스템 리팩토링
-        link: https://github.com/jskimofs/streamlit_internet_recommender # 여기다가 stl이랑 숏폼 하나씩 넣어두면 되겠다
+        link: https://github.com/jskimofs/streamlit_internet_recommender
         # link_text: Project Website
-        # additional_links: # 이게 지금 
+        # additional_links: #
         #   - title:  sproogen/modern-resume-theme
         #     icon: fab fa-github
         #     url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: > # 이건 생략 가능할 것 같은데
+        # quote: > 
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong. 
         description: | # this will include new lines to allow paragraphs
           고객의 서비스 이용 데이터를 기반으로 인터넷 유형을 예측하는 <mark>머신러닝</mark> 프로젝트입니다.
           <mark>MLflow Nested Run</mark>을 활용해 실험 과정을 구조화하고, feature selection부터 hyperparameter tuning까지의 의사결정을 자동화했습니다.
-          
-    content:
-      - layout: top-middle
+
+
         title: AI 기반 뉴스 숏폼 자동 생성 파이프라인
         link: https://github.com/jskimofs/shortform_auto_generator
         # link_text: Project Website
@@ -103,98 +121,118 @@ content:
   #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   #       description: | # this will include new lines to allow paragraphs
   #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+
   - title: Tech Stack
     layout: text
-    content: | # this will include new lines to allow paragraphs
-    
+    content: | # this will include new lines to allow paragraphs ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
-      - Python : 데이터 처리 및 AI 파이프라인 설계, 클래스 기반 모듈화 경험
+      ### Programming
 
-      - Data Analysis
-        - pandas : 데이터 정제, 집계, feature engineering 수행 가능
-        - scikit-learn : 모델링 및 검증, 튜닝까지 end-to-end 수행 가능
+      - Python  
+        → 데이터 처리 및 AI 파이프라인 설계, 클래스 기반 모듈화 경험
 
-      - Database
-        - MySQL : 관계형 데이터 구조를 활용한 데이터 통합 및 분석용 dataset 생성
 
-      - AI / NLP
-        - OpenAI GPT API : 텍스트 교정, 요약, 분류 파이프라인 구성
-        - Whisper : STT 및 timestamp 기반 후처리
-        - BERTScore : semantic similarity 기반 문장 선택
+      ### Data Analysis
+      ![Pandas](/jskimofs.github.io/images/Pandas.png "Pandas")
+      ![Scikit-learn](/jskimofs.github.io/images/scikit-learn.png "Scikit-learn")
+      - pandas  
+        → 데이터 정제, 집계, feature engineering 수행 가능
+      - scikit-learn  
+        → 모델링, 검증, 하이퍼파라미터 튜닝까지 end-to-end 수행 가능
 
-      - System / Pipeline
-        - Pipeline Architecture : end-to-end AI 서비스 설계 및 구현
-        - FFmpeg : 영상 처리 자동화 (클립 생성, 병합, 효과 적용)
-        
-      - Backend
-        - Django : 
 
-        
-      - TensorFlow :
-      - Pytorch : 기본적인 동작 원리와 텍스트 정제를 위한 seq-to-seq 모델링 실행 경험 존재
+      ### Database
+      ![MySQL](/jskimofs.github.io/images/MySQL.png "MySQL")
+      - MySQL  
+        → 관계형 데이터 구조 기반 데이터 통합 및 분석용 dataset 생성
+
+
+      ### AI / NLP
+
+      - OpenAI GPT API  
+        → 텍스트 교정, 요약, 분류 파이프라인 구성
+      - Whisper  
+        → STT 및 timestamp 기반 후처리
+      - BERTScore  
+        → semantic similarity 기반 문장 선택
+
+
+      ### System / Pipeline
+      
+      - Pipeline Architecture  
+        → end-to-end AI 서비스 설계 및 구현 경험
+      - FFmpeg  
+        → 영상 처리 자동화 (클립 생성, 병합, 효과 적용)
+
+
+      ### Deep Learning (Familiar)
+      ![TensorFlow](/jskimofs.github.io/images/TensorFlow.png "TensorFlow")
+      - TensorFlow, PyTorch  
+        → 기본적인 신경망 구조 이해 및 학습 실습 경험
+
+
+      ### Backend / Deployment (Familiar)
+      ![AWS](/jskimofs.github.io/images/AWS.png "AWS")
+      ![Django](/jskimofs.github.io/images/Django.png "Django")
+      - AWS (EC2, S3, RDS, Kinesis, Lambda, API Gateway)  
+        → 데이터 파이프라인 구성 및 웹 서비스 배포 실습 경험
+      - Django  
+        → AWS EC2 환경에서 WAS 배포 실습 경험
     
 
 
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 연세대학교
-        caption: 2016 - 2022
-        sub_title: 문헌정보학과
-        # quote: > # 이건 대체 뭐라고 써둬야 하는데. 굳이 내가 quote를 쓸 필요가 있나?
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs/ 이거 학과에서 배운 거 써놔야겠는데. 잡코리아에 써둔 이력서 들고 오자
-        
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    layout: text # Type of content section (list/text)
+    content: |
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      연세대학교
 
-    content:
-      - layout: left
-        title: Dacon ML 심화 과정이었든가
-        caption: 2024.11 - 2025.05
-        sub_title: KDT AI 과정? 뭐라고 써야 돼?
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs/ 이거 학과에서 배운 거 써놔야겠는데. 잡코리아에 써둔 이력서 들고 오자
-        
-         거기서 배웠던 것들 정리하기.
+      학과 : 문헌정보학과
+      재학기간 : 2016 - 2022
+      학습 내용 : 
+       - 문헌정보통계 : 회귀분석과 분산분석을 학습하며, 공공데이터를 활용해 가설을 설정하고 통계적 검정을 통해 이를 검증하는 프로젝트를 수행
+       - 응용머신러닝 : 데이터 전처리부터 모델 학습, 성능 평가에 이르는 머신러닝 분석의 전체 흐름을 학습. GridSearchCV를 활용해 정해진 탐색 공간 내에서 하이퍼파라미터 조합을 비교하며 모델 성능을 체계적으로 검증하는 방법을 익힘
+       - 텍스트정보론 : 텍스트 데이터의 특성을 이해하기 위한 자연어 전처리 개념을 학습하고, 정규표현식과 벡터화 과정을 거쳐 Gensim, SpaCy 등의 라이브러리를 활용한 분석을 수행함. 또한 PyTorch 기반 모델링과 순환신경망 및 LSTM 구조를 접하며 자연어 데이터를 다루는 모델링 접근을 확장
+       - 정보기술론 과목 : 데이터 분석과 머신러닝에 필수적인 기술 언어로서의 파이썬을 기초 단계부터 학습함. 튜플과 클래스, 캡슐화 개념을 중심으로 객체와 데이터 구조에 대한 이해를 쌓음
+       - 프로그래밍기초 : 파이썬에 기반해 함수 정의와 모듈 호출을 통해 코드를 재사용 가능한 단위로 구성하는 방법을 익힘. 이 과정에서 배운 내용을 바탕으로 보유 주식의 매수 내역을 입력값으로 받아 평균 단가를 계산하는 간단한 함수를 직접 구현하며, 파이썬 문법을 실제 문제 해결에 적용하는 경험을 쌓음
 
-    content:
-      - layout: left
-        title: LG U+ WhyNotSWCamp 3기
-        caption: 2024.11 - 2025.05
-        sub_title: KDT AI 과정? 뭐라고 써야 돼?
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs/ 이거 학과에서 배운 거 써놔야겠는데. 잡코리아에 써둔 이력서 들고 오자
-        
-         거기서 배웠던 것들 정리하기.
+      K-MOOC
+
+      기간 : 2024.04 - 2024.06
+      학습 내용 : 
+       - AI 프로그래밍 : 딥러닝의 핵심 개념과 PyTorch 기반 회귀 모델 및 CNN 모델링 과정을 학습
+       - 데이터로 배우는 통계학 : 중앙값, 신뢰구간, 가설검정을 활용한 통계적 추론을 수행하고, 변수 간 관계 분석, 집단 간 차이 검정, 확률 기반 분류 문제 에 따라 회귀분석, 분산분석, 베이즈 추론 기법을 적용하는 방법을 학습
+       - 인공지능과 에너지 : 시계열 데이터의 특성과 전처리 흐름을 이해하고, pandas 기반 데이터 가공과 함께 서포트 벡터 머신과 회귀 기반 모델을 활용한 예측 모델링 학습
+
+      
+      Dacon
+
+      기간 : 2024.07
+      학습 내용 : 
+       - 머신러닝 심화 트랙 : PCA, RFECV를 활용한 피처 선택 및 차원 축소, Optuna를 이용한 하이퍼파라미터 탐색, 보팅과 스태킹 기반 앙상블 분류를 통한 머신러닝 모델 성능 개선 기법 학습
 
 
-  - title: 자격증 # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: TensorFlow Developer Certificate
-        caption: 2024.03.27
-        sub_title: TensorFlow # 이건 기관명으로 사용하자
-        # quote: > # 이건 대체 뭐라고 써둬야 하는데. 굳이 내가 quote를 쓸 필요가 있나?
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs/ 이거 학과에서 배운 거 써놔야겠는데. 잡코리아에 써둔 이력서 들고 오자
-        #   이게 과연 필요할까? 어차피 테크 스택에 써놓을 건데
 
-    content:
-      - layout: left
-        title: 빅데이터분석기사
-        caption: 2024.07.12
-        sub_title: 한국데이터산업진흥원 # 이건 기관명으로 사용하자
-        # quote: > # 이건 대체 뭐라고 써둬야 하는데. 굳이 내가 quote를 쓸 필요가 있나?
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs/ 이거 학과에서 배운 거 써놔야겠는데. 잡코리아에 써둔 이력서 들고 오자
-        #   연대에서 배웠던 내용 들고 와야 할 거 같은데. 인성적 이야기는 패스하고.
-        #   텐서플로우 자격증을 통해 얻는 거 
+      LG U+ WhyNotSWCamp 3기
+
+      기간 : 2024.11 - 2025.05
+      학습 내용 :
+      - 파이썬의 자료형과 자료구조를 포함한 기초적인 개념부터, Pandas와 Scikit-learn을 활용한 데이터 분석 기술, MySQL 기반 데이터 추출 방법, 기본적인 통계 개념과 SciPy 및 Statsmodels를 활용한 통계적 검정 기법 학습
+      - Django를 활용해 웹 프레임워크를 구성하고, Docker 이미지를 이용한 배포 과정을 실습했으며, Kubernetes의 기본 개념을 익힘
+      - AWS의 EC2 인스턴스에 Docker 이미지를 올려 실행하고, Django 기반 웹페이지에서 발생한 로그 데이터를 Kinesis - Lambda - Firehose 파이프라인을 통해 S3에 저장하는 전 과정을 직접 구현하며 클라우드 기반 데이터 흐름을 체험
+      - AWS EMR 클러스터에서 Zeppelin을 활용해 PySpark로 조건에 맞는 데이터를 추출하고 S3에 전송하는 실습을 통해 분산 데이터 처리 방식에 대한 이해를 넓힘
+      - LangChain의 구조와 활용 방법을 실습을 통해 익힘
+
+
+
+  - title: 자격증
+    layout: text
+    content: |
+
+      TensorFlow Developer Certificate | TensorFlow | 2024.03.27
+      빅데이터분석기사 | 한국데이터산업진흥원 | 2024.07.12
+
 
   # - title: A Little More About Me
   #   layout: text
