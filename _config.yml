@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 김진서
-title:
+# title:
 email: jinseokimdatasci@gmail.com
 website: www.jskimofs.github.io
 
@@ -46,7 +46,7 @@ github_username:  jskimofs
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+# about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   비구조적으로 작성된 데이터 처리 및 머신러닝 코드를, 재현 가능하고 서비스 가능한 시스템으로 전환하는 데 강점을 가지고 있습니다.
   Whisper 기반 STT부터 텍스트 후처리, 요약 및 하이라이트 추출, 영상 생성까지 이어지는 end-to-end 파이프라인을 설계하고 구현하여 실제 결과물로 연결했습니다.
